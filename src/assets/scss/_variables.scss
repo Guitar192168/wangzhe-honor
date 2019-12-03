@@ -1,0 +1,69 @@
+// colors
+// 对象
+$colors:(
+	'primary':#db9e3f,
+	'danger':#791a15,
+	'blue-1':#1f3695,
+	'blue':#4394e4,
+	'info':#4b67af,
+	'white':#fff,
+	'light':#f9f9f9,
+	'light-1':#d4d9de,
+	'black':#000,
+	'dark-1':#343440,
+	'dark':#222,
+	'grey':#999,
+	'grey-1':#666
+	);
+
+$border-color:map-get($colors,'light-1');  
+// font-size
+$base-font-size: 1rem;
+$font-sizes:(
+	xss:0.6154, 
+	xs: 0.7692,
+	sm: 0.9231, 
+	md: 1,
+	xl:	1.2308,
+	);
+
+
+// justify-content
+$flex-jc:(
+	start:flex-start,
+	end:flex-end,
+	center:center,
+	between:space-between,
+	around:space-around,
+	);
+
+// align-items
+$flex-ai:(
+	start:flex-start,
+	end:flex-end,
+	center:center,
+	// 水平方向有对齐方式，在垂直方向需要等高，就stretch
+	stretch:stretch,
+	);
+
+// 边距
+$spacing-types:(
+	m: margin, 
+	p: padding
+	);
+$spacing-directions:(
+	t: top,
+	r: right,
+	b: bottom, 
+	l: left,
+	);
+$spacing-base-size: 1rem;
+$spacing-sizes:(
+	0: 0,
+	1: 0.25,
+	2: 0.5, 
+	3: 1,
+	4: 1.5,
+	5: 3,
+	);
+
